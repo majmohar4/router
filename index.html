@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobrodošli v omrežju</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #007BFF, #004C99);
+            color: #ffffff;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #007BFF;
+            background: #ffffff;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        a:hover {
+            background: #f0f0f0;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dobrodošli v omrežju</h1>
+    <p>Spodaj so na voljo koristni viri:</p>
+    <a href="document1.pdf" target="_blank">Ogled dokumenta 1</a>
+    <a href="document2.pdf" target="_blank">Ogled dokumenta 2</a>
+    <p>Če ste skrbnik, lahko <a href="/admin" style="color: #FFD700;">dostopate do nastavitev usmerjevalnika tukaj</a>.</p>
+    <footer>Pogon: OpenWRT</footer>
+</body>
+</html>
